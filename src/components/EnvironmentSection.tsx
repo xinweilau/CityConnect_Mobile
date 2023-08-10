@@ -4,7 +4,7 @@ import WeatherCard from "./WeatherCard";
 import AirQualityCard from "./AirQualityCard";
 import DengueCard from "./DengueCard";
 
-export default function MyEnvironment() {
+export default function EnvironmentSection() {
     const environments = [
         <WeatherCard />,
         <AirQualityCard />,

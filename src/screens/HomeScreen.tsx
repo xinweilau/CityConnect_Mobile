@@ -3,7 +3,7 @@ import { LinearGradient } from "expo-linear-gradient"
 import { Entypo } from '@expo/vector-icons';
 
 import tw from 'twrnc';
-import MyEnvironment from "../components/MyEnvironment";
+import EnvironmentSection from "../components/EnvironmentSection";
 
 export default function HomeScreen() {
     return (
@@ -21,7 +21,7 @@ export default function HomeScreen() {
             </View>
             <View style={tw`flex-1 w-full bg-white left-0 bottom-0 right-0 rounded-t-3xl flex flex-col items-center p-5 justify-between`}>
                 <View style={tw`flex flex-col gap-4 bg-white w-full px-2 uppercase`}>
-                    <MyEnvironment />
+                    <EnvironmentSection />
                 </View>
             </View>
         </SafeAreaView>
