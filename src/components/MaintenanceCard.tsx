@@ -19,8 +19,8 @@ export default function MaintenanceCard(props: MaintenanceCardProps) {
         <View style={tw`flex flex-row items-center gap-2 rounded-lg px-4 py-2 border border-[#DEDEDE]`}>
             <Image source={getIconFromType()} style={tw`w-16 h-full`} />
             <View>
-                <Text style={tw`font-bold text-xl`}>{props.title}</Text>
-                <Text style={tw`text-lg font-semibold text-gray-700`}>
+                <Text style={tw`font-bold text-lg`}>{props.title}</Text>
+                <Text style={tw`text-sm font-semibold text-gray-700`}>
                     {moment(props.startDateTime).format("DD MMM YYYY, hh:mm A")}
                 </Text>
             </View>
