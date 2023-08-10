@@ -1,4 +1,4 @@
-import { SafeAreaView, Text, View } from "react-native";
+import { SafeAreaView, ScrollView, Text, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient"
 import { Entypo } from '@expo/vector-icons';
 
@@ -22,12 +22,12 @@ export default function HomeScreen() {
                 <Text style={tw`text-2xl w-2/3 break-words font-bold text-white`}>367 Clementi Avenue 2</Text>
             </View>
             <View style={tw`flex-1 w-full bg-white left-0 bottom-0 right-0 rounded-t-3xl flex flex-col items-center p-5 justify-between`}>
-                <View style={tw`flex flex-col gap-4 bg-white w-full px-2`}>
+                <ScrollView style={tw`bg-white w-full px-2`} showsVerticalScrollIndicator={false}>
                     <EnvironmentSection />
                     <MaintenanceSection />
                     <UpdateSection type="renovation" />
                     <UpdateSection type="community" />
-                </View>
+                </ScrollView>
 
             </View>
         </SafeAreaView>

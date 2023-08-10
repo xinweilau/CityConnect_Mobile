@@ -19,7 +19,7 @@ const MOCK_DATA: MaintenanceCardProps[] = [
 export default function MaintenanceSection() {
 
     return (
-        <View style={tw`flex flex-col gap-4`}>
+        <View style={tw`flex flex-col gap-2 mb-6`}>
             <Text style={tw`uppercase text-[#ACB1BF] font-bold`}>MAINTENANCES NEAR ME</Text>
             <FlatList
                 horizontal

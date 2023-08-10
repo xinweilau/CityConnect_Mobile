@@ -30,7 +30,7 @@ const MOCK_COMMUNITY = [
 
 export default function UpdateSection(props: UpdateSection) {
     return (
-        <View style={tw`flex flex-col gap-4`}>
+        <View style={tw`flex flex-col gap-2 mb-6`}>
             <Text style={tw`uppercase text-[#ACB1BF] font-bold`}>{`${props.type} updates`}</Text>
             <FlatList
                 horizontal
