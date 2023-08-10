@@ -5,6 +5,7 @@ import { Entypo } from '@expo/vector-icons';
 import tw from 'twrnc';
 import EnvironmentSection from "../components/EnvironmentSection";
 import MaintenanceSection from "../components/MaintenanceSection";
+import UpdateSection from "../components/UpdateSection";
 
 export default function HomeScreen() {
     return (
@@ -24,6 +25,8 @@ export default function HomeScreen() {
                 <View style={tw`flex flex-col gap-4 bg-white w-full px-2`}>
                     <EnvironmentSection />
                     <MaintenanceSection />
+                    <UpdateSection type="renovation" />
+                    <UpdateSection type="community" />
                 </View>
 
             </View>
