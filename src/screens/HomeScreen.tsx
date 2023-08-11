@@ -19,7 +19,7 @@ export default function HomeScreen() {
             />
             <View style={tw`flex flex-row pl-4 pr-8 py-8 gap-4 z-10`}>
                 <Entypo name="location-pin" size={32} style={tw`text-red-400`} />
-                <Text style={tw`text-2xl w-2/3 break-words font-bold text-white`}>367 Clementi Avenue 2</Text>
+                <Text style={tw`text-2xl w-2/3 font-bold text-white`}>367 Clementi Avenue 2</Text>
             </View>
             <View style={tw`flex-1 w-full bg-white left-0 bottom-0 right-0 rounded-t-3xl flex flex-col items-center p-5 justify-between`}>
                 <ScrollView style={tw`bg-white w-full px-2`} showsVerticalScrollIndicator={false}>

@@ -7,8 +7,8 @@ export default function AuthSection() {
     return (
         <Tab.Navigator
             screenOptions={{ tabBarLabelPosition: 'below-icon', headerShown: false }}
-            initialRouteName="Home">
-            <Tab.Screen name="Home" component={HomeStack} />
+            initialRouteName="HomeStack">
+            <Tab.Screen name="HomeStack" component={HomeStack} />
         </Tab.Navigator>
     )
 }

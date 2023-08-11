@@ -9,7 +9,7 @@ export default function WeatherCard() {
             <View style={tw`absolute left-0 top-0 px-4 py-2 rounded-xl bg-[#2F6297] uppercase`}>
                 <Text style={tw`font-bold text-white`}>Air Quality</Text>
             </View>
-            <View style={tw`flex flex-row nowrap items-center px-8 mt-6 gap-4`}>
+            <View style={tw`flex flex-row flex-nowrap items-center px-8 mt-6 gap-4`}>
                 <Image source={air} style={tw`w-24 h-24 my-2`} />
                 <View>
                     <Text style={tw`font-bold text-xl`}>Moderate</Text>
